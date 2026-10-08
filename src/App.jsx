@@ -4,7 +4,7 @@ import axios from "axios";
 
 function App() {
 
-  const BASE_URL = 'http://127.0.0.1:8000'
+  const BASE_URL = 'https://student-management-backend-1-3jul.onrender.com'
   
   const [students, setStudents] = useState([])
   const [id,setId] = useState('')
